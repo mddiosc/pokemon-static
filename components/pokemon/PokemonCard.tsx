@@ -12,7 +12,7 @@ const PokemonCard: React.FC<PokemonCardProps> = ({
   const { push } = useRouter();
 
   const onClick = () => {
-    push(`/pokemon/${id}`);
+    push(`/name/${name}`);
   };
 
   return (
